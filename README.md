@@ -9,6 +9,16 @@ Working with Catalina 10.15.1
 NOTES:
 
 <b>USBMap.kext</b>
+* Add your "Board Serial Number"/"System Serial Number"/"SystemUUID" in:
+- plataforminfo/SMBIOS
+
+* Add your "System Serial Number"/"SystemUUID" in:
+- plataforminfo/Generic
+
+* Add your "System Serial Number"/"SystemUUID" in:
+- plataforminfo/DataHub
+
+<b>USBMap.kext</b>
 * 4 USB2 in backpainel set to USB2
 * 4 USB3 in backpainel set to USB2and3
 * 2 USB3 ports in front (1 SET TO USB2 bacause i have my bluetooth usb there, the other USB2and3)
